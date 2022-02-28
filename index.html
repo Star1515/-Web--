@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="./js/main.js"></script>
+
+</head>
+
+<body>
+  <div class="frame">
+    <div class="item">
+      <form id="datecalc">
+        <h3>Калькулятор дат</h3>
+        <label>
+          <strong>Первая дата:</strong>
+          <input type="date" name="firstDate" />
+        </label>
+        <label>
+          <strong>Вторая дата:</strong>
+          <input type="date" name="secondDate" />
+        </label>
+        <button type="submit">Расчитать промежуток</button>
+        <p id="datecalc__result"></p>
+      </form>
+    </div>
+    <div class="item item_two">
+      <h3>Таймер</h3>
+      <div class="timer"></div>
+      <input id="input" type="text">
+
+      <div class="">
+        <button id="button_start">Старт</button>
+        <button id="button_stop">Стоп</button>
+        <button id="button_clear">Очистить</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
+
+<!-- import { DateTime } from 'https://moment.github.io/luxon/es6/luxon.min.js'; -->
